@@ -21,6 +21,28 @@
 Dự án đặc biệt tích hợp hệ thống kiểm tra kiến trúc tự động (**ArchUnit**), đảm bảo mã nguồn luôn tuân thủ các tiêu chuẩn kỹ thuật phần mềm cao nhất trong suốt quá trình phát triển.
 
 ---
+## 👨‍💻 Đóng góp cá nhân 
+
+**Vai trò:** Lập trình viên Backend 
+
+**Chi tiết các công việc và tính năng đảm nhiệm:**
+
+* **Kiến trúc Cốt lõi & Cơ sở dữ liệu (Core & Database):** 
+  * Thiết kế các Entity Model và cấu hình kết nối cơ sở dữ liệu an toàn (loại bỏ các file cấu hình nhạy cảm như `database.properties` khỏi version control).
+  * Xử lý và đồng bộ múi giờ trên toàn hệ thống để đảm bảo ghi nhận thời gian giao dịch chính xác.
+* **Xử lý logic Sản phẩm & Thực đơn (Product & Menu Services):** 
+  * Phát triển các Backend service thực hiện CRUD cho Danh mục, Sản phẩm và Topping.
+  * Triển khai logic theo dõi trạng thái tồn kho và kiểm tra phân quyền khi thao tác dữ liệu.
+* **Quản lý Nguyên liệu (Inventory Management):** 
+  * Xây dựng toàn bộ service quản lý nguyên liệu, bao gồm các luồng thao tác được phân quyền dành riêng cho nhân viên hoặc quản lý và chức năng tìm kiếm nguyên liệu theo tên.
+* **Người dùng & Bảo mật (User & Security):** 
+  * Xây dựng các service cốt lõi xử lý luồng khóa/mở khóa tài khoản và khôi phục mật khẩu.
+  * Tích hợp mã hóa mật khẩu an toàn trước khi lưu trữ vào cơ sở dữ liệu.
+* **Hệ thống Khuyến mãi & Điểm thưởng (Loyalty & Promotion System):** 
+  * Lập trình logic backend cho hệ thống quy đổi điểm thưởng, nâng hạng thành viên và quản lý lịch sử giao dịch điểm.
+  * Phát triển service quản lý voucher và tối ưu hóa thuật toán tính toán mức giảm giá tối đa dựa trên điểm tích lũy của khách hàng.
+ 
+---
 
 ## ✨ Tính Năng Nổi Bật
 

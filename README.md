@@ -31,16 +31,17 @@ Dự án đặc biệt tích hợp hệ thống kiểm tra kiến trúc tự đ�
   * Thiết kế các Entity Model và cấu hình kết nối cơ sở dữ liệu an toàn (loại bỏ các file cấu hình nhạy cảm như `database.properties` khỏi version control).
   * Xử lý và đồng bộ múi giờ trên toàn hệ thống để đảm bảo ghi nhận thời gian giao dịch chính xác.
 * **Xử lý logic sản phẩm & thực đơn (Product & Menu Services):** 
-  * Phát triển các Backend service thực hiện CRUD cho Danh mục, Sản phẩm và Topping.
-  * Triển khai logic theo dõi trạng thái tồn kho và kiểm tra phân quyền khi thao tác dữ liệu.
+  * Phát triển các Backend Service thực hiện CRUD cho Danh mục, Sản phẩm và Topping.
+  * Triển khai Logic theo dõi trạng thái tồn kho và kiểm tra phân quyền khi thao tác dữ liệu.
 * **Quản lý nguyên liệu (Inventory Management):** 
   * Xây dựng toàn bộ Service quản lý nguyên liệu, bao gồm các luồng thao tác được phân quyền dành riêng cho nhân viên hoặc quản lý và chức năng tìm kiếm nguyên liệu theo tên.
-* **Người dùng & bảo mật (User & Security):** 
+* **Người dùng & bảo mật (User & Security):**
+  * Xây dựng toàn bộ Service đăng nhập và xác thực, phân quyền người dùng.
   * Xây dựng các Service cốt lõi xử lý luồng khóa/mở khóa tài khoản và khôi phục mật khẩu.
   * Tích hợp mã hóa mật khẩu an toàn trước khi lưu trữ vào cơ sở dữ liệu.
 * **Hệ thống khuyến mãi & điểm thưởng (Loyalty & Promotion System):** 
-  * Lập trình logic backend cho hệ thống quy đổi điểm thưởng, nâng hạng thành viên và quản lý lịch sử giao dịch điểm.
-  * Phát triển Service quản lý voucher và tối ưu hóa thuật toán tính toán mức giảm giá tối đa dựa trên điểm tích lũy của khách hàng.
+  * Lập trình Logic Backend cho hệ thống quy đổi điểm thưởng, nâng hạng thành viên và quản lý lịch sử giao dịch điểm.
+  * Phát triển Service quản lý Voucher và tối ưu hóa thuật toán tính toán mức giảm giá tối đa dựa trên điểm tích lũy của khách hàng.
  
 ---
 
